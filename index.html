@@ -52,9 +52,9 @@
   
 
 <div id="featured">
-	<img src="images/1200x250&text=Slide_1.gif" alt="slide image">
-	<img src="http://placehold.it/1200x250&text=Slide_2" alt="slide image">
-	<img src="http://placehold.it/1200x250&text=Slide_3" alt="slide image">
+	<img src="http://placehold.it/1200x800&text=Slide_1" alt="slide image">
+	<img src="http://placehold.it/1200x800&text=Slide_2" alt="slide image">
+	<img src="http://placehold.it/1200x800&text=Slide_3" alt="slide image">
 </div>
 	
   
@@ -99,5 +99,20 @@
      afterSlideChange: function(){} 	 // empty function 
 });
 </script>
+
+<script>
+$(document).ready(function() {
+	$.responsive = function () {
+		$(".orbit-wrapper").css("top", $(".gradient").height() );
+		$(".orbit-slide").css("marginTop", $(".orbit-wrapper").height()-$(".orbit-slide").height() );
+	};
+	
+	$.responsive();
+	$(window).resize(function() {
+		$.responsive();
+	});
+});
+</script>
+
 </body>
 </html>

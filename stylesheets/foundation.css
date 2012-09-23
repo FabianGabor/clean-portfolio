@@ -91,7 +91,7 @@ header h1 {
 	background: linear-gradient(to bottom,  rgba(236,236,236,1) 0%,rgba(224,224,224,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ececec', endColorstr='#e0e0e0',GradientType=0 );
 	
-	color: #07b526;
+	color: #999;
 	text-shadow: 0 -1px rgba(0, 0, 0, 0.5), 0 1px rgba(255, 255, 255, 1);
 	
 	font-family: 'CaviarDreamsRegular';
@@ -315,11 +315,11 @@ that IE7/8 do not support :nth-child.
 */
 /* Container ---------------------- */
 .orbit-wrapper { width: 1px; height: 1px; position: relative; }
-.orbit { width: 1px; height: 1px; position: relative; overflow: hidden; margin-bottom: 17px; }
+.orbit { width: 1px; height: 1px; position: relative; overflow: hidden; }
 .orbit.with-bullets { margin-bottom: 40px; }
-.orbit .orbit-slide { max-width: 100%; position: absolute; top: 0; left: 0; }
+.orbit .orbit-slide { max-width: 100%; position: absolute; top: 50%; left: 0; }
 .orbit a.orbit-slide { border: none; line-height: 0; display: none; }
-.orbit .orbit-slide { width: 100%; height: 100%; }
+.orbit .orbit-slide { width: 100%; height: auto; }
 
 /* Note: If your slider only uses content or anchors, you're going to want to put the width and height declarations on the ".orbit>div" and ".orbit>a" tags in addition to just the .orbit-wrapper */
 /* Timer ---------------------- */
@@ -354,7 +354,7 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
 
 /* Fluid Layout ---------------------- */
 .orbit img.fluid-placeholder { visibility: hidden; position: static; display: block; width: 100%; }
-.orbit, .orbit-wrapper { width: 100% !important; }
+.orbit, .orbit-wrapper { width: 100% !important;  max-height: 480px; }
 
 /* Correct timer in IE */
 .lt-ie9 .timer { display: none !important; }

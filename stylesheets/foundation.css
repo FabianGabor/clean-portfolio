@@ -317,7 +317,7 @@ that IE7/8 do not support :nth-child.
 .orbit-wrapper { width: 1px; height: 1px; position: relative; }
 .orbit { width: 1px; height: 1px; position: relative; overflow: hidden; }
 .orbit.with-bullets { margin-bottom: 40px; }
-.orbit .orbit-slide { max-width: 100%; position: absolute; top: 50%; left: 0; }
+.orbit .orbit-slide { max-width: 100%; position: absolute; top: 50%; left: 0; top: 0; }
 .orbit a.orbit-slide { border: none; line-height: 0; display: none; }
 .orbit .orbit-slide { width: 100%; height: auto; }
 
@@ -354,7 +354,7 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
 
 /* Fluid Layout ---------------------- */
 .orbit img.fluid-placeholder { visibility: hidden; position: static; display: block; width: 100%; }
-.orbit, .orbit-wrapper { width: 100% !important;  max-height: 480px; }
+.orbit, .orbit-wrapper { width: 100% !important;  /*max-height: 600px; */}
 
 /* Correct timer in IE */
 .lt-ie9 .timer { display: none !important; }

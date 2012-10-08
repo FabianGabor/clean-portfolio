@@ -78,7 +78,7 @@
 -->
 
 <header class="text-center">
-<!--
+
 <div class="gradient">
 <div class="row">
 	<div class="ten columns centered text-center">
@@ -94,7 +94,7 @@
 	</div>	
 </div>
 </div>
--->
+
 <div class="row">
 	<div class="six columns centered">
 		<h1 class="h2">fabian gabor fotograf</h1>
@@ -111,6 +111,10 @@
 	<img src="images/fotografie-nud-artistic-15.jpg" width="100%" height="auto" alt="slide image" />
 	
 	<!-- maybe this center nav will be removed -->
+	<!--
+	
+	Try the flexbox method for equal column heights http://css-tricks.com/fluid-width-equal-height-columns/
+	
 	<nav id="navcenter" class="">
 		<div class="row">
 			<ul class="block-grid four-up nav-bar">
@@ -146,6 +150,7 @@
 			</ul>
 		</div>
 	</nav>
+	-->
 	
 	<nav id="navbottom" class="text-center twelve">		
 		<div class="row">
@@ -204,10 +209,14 @@ window.onload = function() {
 	});
 	
 	$.responsive = function () {
-		$(".orbit-wrapper").css("top", $(".gradient").height() );
-		$(".orbit-wrapper").height( $(window).height() - $(".gradient").height() );
-		$(".orbit-wrapper").css("marginBottom", $(".gradient").height() );
-		$(".orbit-slide").css("marginTop", ($ (".orbit-wrapper").height()-$(".orbit-slide").height() ) / 2 - $(".gradient").height() );
+		if ( ($("#featured img").height()) > $(window).height() ) {
+			$(".orbit-wrapper").css("top", $(".gradient").height() );
+			$(".orbit-wrapper").height( $(window).height() - $(".gradient").height() );
+			$(".orbit-wrapper").css("marginBottom", $(".gradient").height() );
+			$(".orbit-slide").css("marginTop", ($ (".orbit-wrapper").height()-$(".orbit-slide").height() ) / 2 - $(".gradient").height() );
+		} else {
+			$(".orbit-wrapper").height ( "inherit" );
+		}
 	};
 	
 	$.responsive();

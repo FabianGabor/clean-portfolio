@@ -83,7 +83,7 @@
 <div class="row">
 	<div class="ten columns centered text-center">
 		<nav>
-			<ul class="block-grid five-up nav-bar">
+			<ul class="block-grid mobile five-up nav-bar">
 				<li class="active"><a href="#">comerciale</a></li>
 				<li><a href="#">portrete</a></li>
 				<li><a href="#">glamour</a></li>
@@ -95,7 +95,7 @@
 </div>
 </div>
 
-<div class="row">
+<div id="title" class="row">
 	<div class="six columns centered">
 		<h1 class="h2">fabian gabor fotograf</h1>
 	</div>
@@ -179,8 +179,9 @@
 </div>
 
 <!-- Remove this 2 when done -->
-<!--
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<!--
 <script src="javascripts/jquery.foundation.orbit.js"></script>
 -->
   
@@ -207,12 +208,14 @@ window.onload = function() {
 	
 	$.responsive = function () {
 		if ( ($("#featured img").height()) > $(window).height() ) {
-			$(".orbit-wrapper").css("top", $(".gradient").height() );
+			$(".orbit-wrapper").css("marginTop", -$(".gradient").height() - 7 );
 			$(".orbit-wrapper").height( $(window).height() - $(".gradient").height() );
-			$(".orbit-wrapper").css("marginBottom", $(".gradient").height() );
+			//$(".orbit-wrapper").css("marginBottom", $(".gradient").height() );
 			$(".orbit-slide").css("marginTop", ($ (".orbit-wrapper").height()-$(".orbit-slide").height() ) / 2 - $(".gradient").height() );
 		} else {
 			$(".orbit-wrapper").height ( "inherit" );
+			$(".orbit-wrapper").css("marginTop", -$("#title").height() );
+			$(".orbit-slide").css("marginTop", 0 );
 		}
 	};
 	

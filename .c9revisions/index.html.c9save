@@ -3,3 +3,14 @@
 {"ts":1349777713500,"patch":[[{"diffs":[[0,"\"auto\" alt=\""],[-1,"slide imag"],[1,"fotografii portret"],[0,"e\" />\n\t<img "]],"start1":3221,"start2":3221,"length1":34,"length2":42}]],"length":8799,"saved":false}
 {"ts":1349777719469,"patch":[[{"diffs":[[0,"\"auto\" alt=\""],[-1,"slide image"],[1,"fotografii glamour"],[0,"\" />\n\t<img s"]],"start1":3322,"start2":3322,"length1":35,"length2":42}]],"length":8806,"saved":false}
 {"ts":1349777726199,"patch":[[{"diffs":[[0,"lt=\""],[-1,"slide image"],[1,"fotografii nud artistic"],[0,"\" />"]],"start1":3435,"start2":3435,"length1":19,"length2":31}]],"length":8818,"saved":false}
+{"ts":1349777856043,"patch":[[{"diffs":[[0,"a href=\""],[-1,"#"],[1,"/bl"],[0,"\">blog</"]],"start1":4834,"start2":4834,"length1":17,"length2":19}]],"length":8820,"saved":false}
+{"ts":1349777857117,"patch":[[{"diffs":[[0,"ref=\"/bl"],[1,"og"],[0,"\">blog</"]],"start1":4837,"start2":4837,"length1":16,"length2":18}]],"length":8822,"saved":false}
+{"ts":1349777861055,"patch":[[{"diffs":[[0,"li><a href=\""],[-1,"#"],[1,"/contact"],[0,"\">contact</a"]],"start1":4867,"start2":4867,"length1":25,"length2":32}]],"length":8829,"saved":false}
+{"ts":1349777868665,"patch":[[{"diffs":[[0,"ef=\""],[-1,"/blog"],[0,"\">bl"]],"start1":4838,"start2":4838,"length1":13,"length2":8}]],"length":8824,"saved":false}
+{"ts":1349777870050,"patch":[[{"diffs":[[0,"ef=\""],[-1,"/contact"],[0,"\">co"]],"start1":4870,"start2":4870,"length1":16,"length2":8}]],"length":8816,"saved":false}
+{"ts":1349777872551,"patch":[[{"diffs":[[0,"a href=\""],[1,"#"],[0,"\">contac"]],"start1":4866,"start2":4866,"length1":16,"length2":17}]],"length":8817,"saved":false}
+{"ts":1349777873691,"patch":[[{"diffs":[[0,"a href=\""],[1,"#"],[0,"\">blog</"]],"start1":4834,"start2":4834,"length1":16,"length2":17}]],"length":8818,"saved":false}
+{"ts":1349777880653,"patch":[[{"diffs":[[0,"(500);\n\n"],[-1,"\n"],[0,"\t\n};\n</s"]],"start1":8273,"start2":8273,"length1":17,"length2":16}]],"length":8817,"saved":false}
+{"ts":1349777881595,"patch":[[{"diffs":[[0,"t(500);\n"],[-1,"\n"],[0,"\t\n};\n</s"]],"start1":8272,"start2":8272,"length1":17,"length2":16}]],"length":8816,"saved":false}
+{"ts":1349777883170,"patch":[[{"diffs":[[0,"\n\t});\n\t\n"],[-1,"\t\n"],[0,"  // Whe"]],"start1":8210,"start2":8210,"length1":18,"length2":16}]],"length":8814,"saved":false}
+{"ts":1349777886199,"patch":[[{"diffs":[[0,"cript>\n\n"],[-1,"\n\n"],[0,"<script>"]],"start1":8286,"start2":8286,"length1":18,"length2":16}]],"length":8812,"saved":false}

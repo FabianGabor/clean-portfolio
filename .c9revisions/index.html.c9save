@@ -17,3 +17,6 @@
 {"contributors":[],"silentsave":true,"ts":1349789164632,"patch":[[{"diffs":[[0,"usly -->"],[-1,"\n"],[0,"\t\n\t<scri"]],"start1":1147,"start2":1147,"length1":17,"length2":16}]],"length":8811,"saved":false}
 {"ts":1349789181774,"patch":[[{"diffs":[[0,"book SDK\n\t\t\t"],[-1,"//"],[0,"add('//conne"]],"start1":1658,"start2":1658,"length1":26,"length2":24}]],"length":8809,"saved":false}
 {"ts":1349789185299,"patch":[[{"diffs":[[0,"nalytics\n\t\t\t"],[-1,"//"],[0,"add(('https:"]],"start1":1467,"start2":1467,"length1":26,"length2":24}]],"length":8807,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1349791516369,"patch":[[{"diffs":[[0,"dif]-->\n"],[1,"\n"],[0,"<head>\n "]],"start1":389,"start2":389,"length1":16,"length2":17}]],"length":8808,"saved":false}
+{"ts":1349791526132,"patch":[[{"diffs":[[0,"![endif]-->\n"],[1,"gi"],[0,"\n<head>\n  <m"]],"start1":385,"start2":385,"length1":24,"length2":26}]],"length":8810,"saved":false}
+{"ts":1349791531853,"patch":[[{"diffs":[[0,"dif]-->\n"],[-1,"gi"],[0,"\n<head>\n"]],"start1":389,"start2":389,"length1":18,"length2":16}]],"length":8808,"saved":false}

@@ -14,3 +14,6 @@
 {"ts":1349777881595,"patch":[[{"diffs":[[0,"t(500);\n"],[-1,"\n"],[0,"\t\n};\n</s"]],"start1":8272,"start2":8272,"length1":17,"length2":16}]],"length":8816,"saved":false}
 {"ts":1349777883170,"patch":[[{"diffs":[[0,"\n\t});\n\t\n"],[-1,"\t\n"],[0,"  // Whe"]],"start1":8210,"start2":8210,"length1":18,"length2":16}]],"length":8814,"saved":false}
 {"ts":1349777886199,"patch":[[{"diffs":[[0,"cript>\n\n"],[-1,"\n\n"],[0,"<script>"]],"start1":8286,"start2":8286,"length1":18,"length2":16}]],"length":8812,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1349789164632,"patch":[[{"diffs":[[0,"usly -->"],[-1,"\n"],[0,"\t\n\t<scri"]],"start1":1147,"start2":1147,"length1":17,"length2":16}]],"length":8811,"saved":false}
+{"ts":1349789181774,"patch":[[{"diffs":[[0,"book SDK\n\t\t\t"],[-1,"//"],[0,"add('//conne"]],"start1":1658,"start2":1658,"length1":26,"length2":24}]],"length":8809,"saved":false}
+{"ts":1349789185299,"patch":[[{"diffs":[[0,"nalytics\n\t\t\t"],[-1,"//"],[0,"add(('https:"]],"start1":1467,"start2":1467,"length1":26,"length2":24}]],"length":8807,"saved":false}

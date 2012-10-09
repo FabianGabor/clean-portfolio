@@ -122,7 +122,7 @@ header h1:after {
 }
 
 #navbottom {
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	right: 0;
 	z-index: 999;
@@ -138,6 +138,10 @@ header h1:after {
 #navbottom li:hover a, #navbottom .active a{
 	border-top: 3px solid #20bf08;
 	padding-top: 0;
+}
+
+.fb-like-box, .fb-like-box span, .fb-like-box iframe {
+	width: 100% !important;
 }
 
 /* Links ---------------------- */

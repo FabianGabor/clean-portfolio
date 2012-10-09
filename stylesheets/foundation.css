@@ -140,6 +140,10 @@ header h1:after {
 	padding-top: 0;
 }
 
+article {
+	margin: 0 0 4.8em;
+}
+
 .fb-like-box, .fb-like-box span, .fb-like-box iframe {
 	width: 100% !important;
 }

@@ -14,3 +14,5 @@
 {"ts":1350020388020,"patch":[[{"diffs":[[0,"node web"],[1,"gi"],[0,".js"]],"start1":49,"start2":49,"length1":11,"length2":13}]],"length":62,"saved":false}
 {"ts":1350020389752,"patch":[[{"diffs":[[0," web"],[-1,"gi"],[0,".js"]],"start1":53,"start2":53,"length1":9,"length2":7}]],"length":60,"saved":false}
 {"ts":1350020632485,"patch":[[{"diffs":[[-1,"g"],[0,"web: bun"]],"start1":0,"start2":0,"length1":9,"length2":8}]],"length":59,"saved":false}
+{"ts":1350020722094,"patch":[[{"diffs":[[0,"xec "],[-1,"rackup config.ru -p $PORT\nweb: node web.js"],[1,"unicorn -p $PORT\n"]],"start1":13,"start2":13,"length1":46,"length2":21}]],"length":34,"saved":false}
+{"ts":1350020724379,"patch":[[{"diffs":[[0,"PORT"],[-1,"\n"]],"start1":29,"start2":29,"length1":5,"length2":4}]],"length":33,"saved":false}

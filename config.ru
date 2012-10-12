@@ -1,17 +1,13 @@
-require "rubygems"
-require "bundler"
-Bundler.require(:default)
+# encoding: utf-8
+require 'rack'
+require File.expand_path("../rack_try_static", __FILE__)
 
-map "/" do
-  use Rack::Static, urls: ["/stylesheets", "/images"], root: Dir.pwd
+use ::Rack::TryStatic,
+  :root => "build",
+  :urls => ["/"],
+  :try  => [".html", "index.html", "/index.html"]
 
-  run lambda { |env|
-    headers = {
-      "Content-Type"  => "text/html",
-      "Cache-Control" => "public, max-age=86400"
-    }
-    body = File.open("#{Dir.pwd}/index.html", File::RDONLY).read
+require "rack/contrib/static_cache"
+use Rack::StaticCache, urls: ['/'], root: 'build'
 
-    [200, headers, [body]]
-  }
-end
+run lambda { [404, {"Content-Type" => "text/plain"}, ["File not found!"]] }

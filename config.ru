@@ -1,15 +1,9 @@
-# Gemfile
-source "http://rubygems.org"
-
-gem "rack"
-
-# config.ru
 require "rubygems"
 require "bundler"
 Bundler.require(:default)
 
 map "/" do
-  use Rack::Static, urls: ["/images", "/stylesheets", "/javascripts"], root: Dir.pwd
+  use Rack::Static, urls: ["/stylesheets", "/images"], root: Dir.pwd
 
   run lambda { |env|
     headers = {

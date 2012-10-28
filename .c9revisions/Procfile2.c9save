@@ -1,3 +1,0 @@
-{"ts":1350019088062,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"web: bundle exec rackup config.ru -p $PORT"]],"start1":0,"start2":0,"length1":0,"length2":42}]],"length":42}
-{"contributors":[],"silentsave":true,"ts":1350019088331,"patch":[[{"diffs":[[0,"-p $PORT"],[1,"\nweb: node web.js"]],"start1":34,"start2":34,"length1":8,"length2":25}]],"length":59,"saved":false}
-{"ts":1350019098974,"patch":[[{"diffs":[[0,"b: node "],[-1,"web"],[1,"server"],[0,".js"]],"start1":45,"start2":45,"length1":14,"length2":17}]],"length":62,"saved":false}

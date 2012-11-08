@@ -1,1 +1,15 @@
-Fabian gabor, freelance photographer & designer, Romania
+/* TEAM ****************************************************************************/
+
+FÁBIÁN GÁBOR
+Role ...... : Web Zensigner
+Website ... : http://www.fabiangabor.com
+Location .. : Targu Mures, Romania
+
+/* INFO ****************************************************************************/
+
+Last updated ...... : N/A
+Standards.......... : HTML5, CSS3
+Components ........ : Foundation grid, jQuery, Modernizr
+Software .......... : Photoshop, Notepad++
+
+/***********************************************************************************/
